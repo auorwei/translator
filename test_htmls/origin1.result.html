@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{Token} 錢包與指南（2025）</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 {Token} 錢包：完整指南</h1>
+    <nav>
+        <ul>
+            <li><a href="/intro">介紹</a></li>
+            <li><a href="/compare">比較</a></li>
+            <li><a href="/faq">常見問題</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>概述</h2>
+        <p><strong>{Token}</strong> 錢包讓用戶可以質押、交易，並與 <code>dApps</code> 互動。</p>
+        <blockquote cite="https://bingx.com">
+            “最好的錢包是那個能讓用戶毫無妥協地掌控一切的錢包。” — <cite>BingX Labs</cite>
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>功能比較表</h2>
+        <table border="1">
+            <caption>錢包功能對比</caption>
+            <thead>
+            <tr>
+                <th>名稱</th>
+                <th>質押</th>
+                <th>多重簽名</th>
+                <th>硬體支援</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>TronLink</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Klever</td>
+                <td>✔</td>
+                <td>❌</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>Guarda</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>互動表單</h2>
+        <form>
+            <label for="wallet-type">選擇錢包類型：</label>
+            <select id="wallet-type" name="wallet-type">
+                <option value="basic">基本</option>
+                <option value="advanced">高階</option>
+            </select>
+            <br/>
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" placeholder="you@example.com" title="Enter your email">
+            <input type="submit" value="Get Started">
+        </form>
+    </section>
+
+    <section>
+        <h2>常見問題</h2>
+        <details>
+            <summary>什麼是非托管錢包？</summary>
+            <p>非托管錢包意味着 <em>你</em> 控制自己的私鑰 — 以及你的加密貨幣。</p>
+        </details>
+        <details open>
+            <summary>哪些錢包支援 TRC-20？</summary>
+            <p>包括 <a href="/tronlink">TronLink</a> 和 <a href="/klever">Klever</a> 在內的大多數主要錢包都支援 TRC-20 代幣。</p>
+        </details>
+    </section>
+
+    <section class="hidden">
+        <p>此區段透過 CSS 隱藏，但仍然是 DOM 的一部分。</p>
+    </section>
+
+    <section>
+        <h2>多語內容</h2>
+        <p>TRON 是一個全球性的生態系統。社群在全球範圍內都非常活躍。</p>
+        <p>價格已升至 <strong>¥{price}</strong>，並持續上漲中。</p>
+    </section>
+
+    <aside>
+        <h3>提示</h3>
+        <ul>
+            <li>備份你的 <code>種子短語</code></li>
+            <li>若支援，啟用雙重驗證</li>
+            <li>切勿分享你的私鑰</li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <p>最後更新：{{ last_sync }} | 用戶數量：{user_count}</p>
+    <p>&copy; 2025 BingX Research</p>
+</footer>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "什麼是 TRON 錢包？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "TRON 錢包用來存儲私鑰，並與 TRON 區塊鏈進行互動。"
+                }
+            }
+        ]
+    }
+</script>
+
+</body>
+</html>
